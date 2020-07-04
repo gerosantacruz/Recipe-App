@@ -58,10 +58,10 @@ development:
 test:
   <<: *default
   database: rails_react_recipe_test
-  username: gero
+  username: postgreuser
 
   # The password associated with the postgres role (username).
-  password: samsrl9l9
+  password: Userpassword
 
 
 # As with config/credentials.yml, you never want to store sensitive information,
