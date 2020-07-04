@@ -91,7 +91,8 @@ class NewRecipe extends React.Component {
                             </small>
                         </div>
                         <label htmlFor="instruction">Preparation Instructions</label>
-                        <textarea name="instruction" id="instruction" rows="5" required onChange={this.onChange}/>
+                        <textarea name="instruction" id="instruction" 
+                        rows="5" required onChange={this.onChange}/>
                         <button type="submit" className="btn btn-link mt-3">Create Recipe</button>
                         <Link to="/recipes" className="btn btn-link mt-3">
                             Back to recipes
